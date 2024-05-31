@@ -38,7 +38,7 @@ withdrawal = InlineKeyboardMarkup(
 )
 
 pay = InlineKeyboardMarkup(inline_keyboard=[
-    [InlineKeyboardButton(text="Оплата", url="https://t.me/send?start=IV18zUgjAdfHn"), InlineKeyboardButton(text="Назад", callback_data="nazadbalance")],
+    [InlineKeyboardButton(text="Оплата", url="https://t.me/send?start=IV18zUgjAfHn"), InlineKeyboardButton(text="Назад", callback_data="nazadbalance")],
     [InlineKeyboardButton(text="Я оплатил", callback_data='paid')]
 ])
 
